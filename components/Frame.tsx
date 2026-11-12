@@ -18,6 +18,7 @@
  * 60 photographs still loads fast.
  */
 
+import Image from "next/image";
 const RATIO_CLASS: Record<string, string> = {
   portrait: "aspect-[4/5]",
   landscape: "aspect-[3/2]",
@@ -41,13 +42,14 @@ export default function Frame({
   ratio = "portrait",
   className = "",
   alt,
+src,
 }: {
   seed: string;
   index: number;
   ratio?: string;
   className?: string;
-  /** Real alt text once you swap in real photos. */
   alt?: string;
+  src?: string;
 }) {
   const h = hash(seed, index);
   // Warm, filmic hues — amber through rose to deep indigo.
@@ -63,7 +65,7 @@ export default function Frame({
       role={alt ? "img" : undefined}
       aria-label={alt}
       style={{
-        backgroundImage: `
+        backgroundImage: src ? "none" : `
           linear-gradient(${angle}deg,
             hsl(${hue} 45% ${light1}%) 0%,
             hsl(${hue2} 38% ${light2}%) 100%),
@@ -73,7 +75,15 @@ export default function Frame({
         backgroundBlendMode: "overlay",
       }}
     >
-      {/* film-grain-ish sheen, drawn not loaded */}
+     {src && (
+  <Image
+    src={src}
+    alt={alt ?? "CHE CINEMATIC photograph"}
+    fill
+    sizes="(max-width: 768px) 100vw, 33vw"
+    className="object-cover"
+  />
+)} {/* film-grain-ish sheen, drawn not loaded */}
       <div
         className="absolute inset-0 opacity-[0.18] mix-blend-overlay"
         style={{
