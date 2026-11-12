@@ -13,29 +13,29 @@
  */
 
 export const siteConfig = {
-  name: "Lumen",
-  photographer: "Ada Okonkwo",
-  tagline: "Photography studio",
-  title: "Lumen — Wedding & Portrait Photography in Lisbon",
+  name: "Che Cinematic",
+  photographer: "Rohit Thiyagaraj",
+  tagline: "Capturing moments, Creating Stories",
+  title: "Che Cinematic Photography & Videography",
   description:
-    "Lisbon-based wedding and portrait photographer. Natural light, unhurried direction, and galleries delivered in ten days. Booking 2026 dates now.",
-  url: "https://lumen.example.com",
+    "Capturing weddings, events and portraits through creative photography and cinematic storytelling. Booking 2026 dates now.",
+  url: "https://che-cinematic.pages.dev/",
 
   contact: {
-    email: "hello@lumen.example.com",
-    phone: "+351 910 000 000",
-    phoneHref: "+351910000000",
-    city: "Lisbon",
-    country: "Portugal",
+    email: "rohitsteve1@gmail.com",
+    phone: "9087249925",
+    phoneHref: "9087249925",
+    city: "Chennai",
+    country: "India",
   },
 
   social: {
-    instagram: "https://instagram.com/",
-    pinterest: "https://pinterest.com/",
+    instagram: "https://www.instagram.com/che_cinematic?xtok=MTNpZWdvdTI3Z3Exdw==",
+    pinterest: "-",
   },
 
   hero: {
-    eyebrow: "Lisbon · Available worldwide",
+    eyebrow: "TamilNadu · Available",
     headline: "Light, patience, and the moments between the poses.",
     sub: "I photograph weddings and portraits for people who would rather be laughing than posing. No shot lists read like a script, no three-hour formal sessions — just a long, warm day, documented properly.",
     primaryCta: "Check your date",
@@ -76,15 +76,15 @@ export const siteConfig = {
   ],
 
   about: {
-    heading: "I have photographed 140 weddings and cried at most of them",
+    heading: "I have photographed so many weddings and events cried at most of them",
     body: [
-      "I picked up a camera in 2013 to document a friend's wedding nobody could afford to have photographed. I have not really put it down since.",
+      "I picked up a camera in 2020 to document a friend's wedding nobody could afford to have photographed. I have not really put it down since.",
       "My approach is simple: arrive early, stay quiet, know where the light is going to be an hour from now. I will direct you when it helps and disappear when it does not. The photographs you will remember are almost never the ones you posed for.",
     ],
     stats: [
-      { value: "140+", label: "Weddings" },
-      { value: "10 days", label: "Gallery delivery" },
-      { value: "2013", label: "Shooting since" },
+      { value: "Hassle Free", label: "Weddings & Events" },
+      { value: "Quality", label: "delivery" },
+      { value: "2024", label: "Shooting since" },
     ],
   },
 
@@ -94,10 +94,10 @@ export const siteConfig = {
   packages: [
     {
       name: "Portrait session",
-      price: "€450",
-      duration: "90 minutes",
+      price: "1500",
+      duration: "2 Hours",
       features: [
-        "One location, Lisbon or nearby",
+        "One location, Chennai or nearby",
         "40+ edited photographs",
         "Online gallery, 12-month hosting",
         "Print release included",
@@ -105,8 +105,8 @@ export const siteConfig = {
       featured: false,
     },
     {
-      name: "Wedding — full day",
-      price: "€2,400",
+      name: "Wedding",
+      price: "5000",
       duration: "10 hours",
       features: [
         "Preparations through first dance",
@@ -142,7 +142,7 @@ export const siteConfig = {
   faqs: [
     {
       q: "Do you travel?",
-      a: "Yes, constantly. Travel within Portugal is included. Anywhere else, I add flights and a night's accommodation at cost — no markup, no day rate for travel.",
+      a: "Yes, constantly. Travel within TamilNadu is included. Anywhere else, I add travel and a night's accommodation at cost — no markup, no day rate for travel.",
     },
     {
       q: "How long until we see the photographs?",
@@ -154,7 +154,7 @@ export const siteConfig = {
     },
     {
       q: "What happens if you are ill?",
-      a: "I carry professional insurance and I am part of a network of Lisbon photographers who cover each other. In eleven years I have never missed a wedding, but there is a real plan if I ever do.",
+      a: "I carry professional insurance and I am part of a network of photographers who cover each other. In eleven years I have never missed a wedding, but there is a real plan if I ever do.",
     },
   ],
 
@@ -162,13 +162,13 @@ export const siteConfig = {
   proofing: {
     heading: "Client galleries",
     body: "If you are here to see your photographs, enter the gallery code I sent you. Galleries stay online for twelve months.",
-    placeholder: "e.g. okonkwo-2026",
+    placeholder: "e.g. Rohit-2026",
   },
 
-  footerNote: "Built with the free Lumen template by",
+  footerNote: "Built with passion by",
   footerCredit: {
-    label: "Pixel & Oak",
-    href: "https://pixelandoak.com/templates/photography-portfolio-website-template/?utm_source=lumen-template",
+    label: "Che Cinematic",
+    href: "https://www.instagram.com/che_cinematic?xtok=MTNpZWdvdTI3Z3Exdw==",
   },
 } as const;
 
