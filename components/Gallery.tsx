@@ -115,7 +115,16 @@ export default function Gallery() {
               aria-label={`Open ${s.galleryName} photograph ${s.index + 1} in lightbox`}
             >
               <div className="transition-opacity duration-300 group-hover:opacity-85">
-                <Frame seed={s.gallery} index={s.index} ratio={s.ratio} />
+                <Frame
+  seed={s.gallery}
+  index={s.index}
+  ratio={s.ratio}
+  src={
+    s.gallery === "weddings" && s.index === 0
+      ? "/galleries/weddings/wedding-01.jpg"
+      : undefined
+  }
+/>
               </div>
             </button>
           ))}
@@ -161,11 +170,16 @@ export default function Gallery() {
             onClick={(e) => e.stopPropagation()}
           >
             <Frame
-              seed={current.gallery}
-              index={current.index}
-              ratio={current.ratio}
-              className="max-h-[78vh]"
-            />
+  seed={current.gallery}
+  index={current.index}
+  ratio={current.ratio}
+  className="max-h-[78vh]"
+  src={
+    current.gallery === "weddings" && current.index === 0
+      ? "/galleries/weddings/wedding-01.jpg"
+      : undefined
+  }
+/>
             <figcaption className="mt-3 text-center text-xs uppercase tracking-[0.16em] text-white/50">
               {current.galleryName} · {open! + 1} / {visible.length}
             </figcaption>
