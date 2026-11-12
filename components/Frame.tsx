@@ -84,14 +84,15 @@ src,
     className="object-cover"
   />
 )} {/* film-grain-ish sheen, drawn not loaded */}
-      <div
-        className="absolute inset-0 opacity-[0.18] mix-blend-overlay"
-        style={{
-          backgroundImage:
-            "repeating-linear-gradient(0deg, rgba(255,255,255,.6) 0 1px, transparent 1px 3px)",
-        }}
-        aria-hidden="true"
-      />
-    </div>
+{!src && (
+  <div
+    className="absolute inset-0 opacity-[0.18] mix-blend-overlay"
+    style={{
+      backgroundImage:
+        "repeating-linear-gradient(0deg, rgba(255,255,255,.6) 0 1px, transparent 1px 3px)",
+    }}
+    aria-hidden="true"
+  />
+)}
   );
 }
