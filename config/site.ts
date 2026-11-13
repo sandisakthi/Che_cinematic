@@ -15,7 +15,7 @@
 export const siteConfig = {
   name: "Che Cinematic",
   photographer: "Rohit Thiyagaraj",
-  tagline: "A Freelance Photography",
+  tagline: "Capturing moments, creating stories",
   title: "Che Cinematic Photography & Videography",
   description:
     "Capturing weddings, events and portraits through creative photography and cinematic storytelling. Booking 2026 dates now.",
@@ -35,9 +35,9 @@ export const siteConfig = {
   },
 
   hero: {
-    eyebrow: "TamilNadu · Available",
-    headline: "Light, patience, and the moments between the poses.",
-    sub: "I photograph weddings and portraits for people who would rather be laughing than posing. No shot lists read like a script, no three-hour formal sessions — just a long, warm day, documented properly.",
+    eyebrow: "Freelance · Photography",
+    headline: "Light, laughter, and stories through the lens.",
+    sub: "No need to practise your smiles or worry about perfect poses. Just be yourself, enjoy your special day, and I'll take care of capturing the emotions, little details and moments along the way.",
     primaryCta: "Check your date",
     secondaryCta: "See the work",
   },
