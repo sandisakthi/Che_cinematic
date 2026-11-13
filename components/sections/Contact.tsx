@@ -15,8 +15,9 @@ export default function Contact() {
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
   e.preventDefault();
+    const formData = new FormData(e.currentTarget);
 
-  const formData = new FormData(e.currentTarget);
+  const name = formData.get("name") as string;
     const dateValue = formData.get("date") as string;
 const formattedDate = dateValue
   ? new Date(dateValue + "T00:00:00").toLocaleDateString("en-IN", {
@@ -48,7 +49,6 @@ ${name}`;
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-  setSent(true);
 }
 
   const today = new Date().toISOString().split("T")[0];
