@@ -79,7 +79,12 @@ export const siteConfig = {
       name: "Editorial",
       blurb: "Brand and magazine commissions. Studio or location.",
       shots: 6,
-      images: [],
+      images: [
+  "/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.48 AM (4).jpeg",
+  "/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.48 AM (3).jpeg",
+  "/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.47 AM (5).jpeg",
+  "/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.46 AM (2).jpeg",
+],
       ratios: ["landscape", "portrait", "landscape", "square", "landscape", "portrait"],
     },
   ],
