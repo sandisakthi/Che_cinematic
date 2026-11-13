@@ -59,8 +59,8 @@ ${name}`;
       id="contact"
       className="border-t border-current/10 bg-ink-100/60 py-20 sm:py-28 dark:bg-ink-900/40"
     >
-      <div className="mx-auto grid max-w-6xl items-start gap-14 px-5 lg:grid-cols-2">
-        <div>
+      <div className="contents lg:block">
+        <div className="contents lg:block">
           <Reveal>
             <span className="text-xs font-semibold uppercase tracking-[0.18em] opacity-50">
               Enquiries
@@ -88,7 +88,8 @@ ${name}`;
             </div>
           </Reveal>
 
-          {/* FAQ — also emitted as FAQPage structured data in layout.tsx */}
+          <div className="order-3 lg:order-none">
+            {/* FAQ — also emitted as FAQPage structured data in layout.tsx */}
           <Reveal delay={100}>
             <div className="mt-12 space-y-3">
               {siteConfig.faqs.map((f) => (
