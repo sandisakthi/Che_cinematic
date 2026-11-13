@@ -71,7 +71,12 @@ export const siteConfig = {
       name: "Portraits",
       blurb: "Individuals, couples, and families — usually outdoors, usually golden hour.",
       shots: 6,
-      images: [],
+      images: [
+  "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM.jpeg",
+  "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM (2).jpeg",
+  "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM (1).jpeg",
+  "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.46 AM.jpeg",
+],
       ratios: ["portrait", "square", "portrait", "landscape", "portrait", "square"],
     },
     {
