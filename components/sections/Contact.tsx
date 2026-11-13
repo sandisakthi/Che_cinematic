@@ -59,7 +59,7 @@ ${name}`;
       id="contact"
       className="border-t border-current/10 bg-ink-100/60 py-20 sm:py-28 dark:bg-ink-900/40"
     >
-      <div className="contents lg:block">
+      <div className="mx-auto grid max-w-6xl items-start gap-14 px-5 lg:grid-cols-2">
         <div className="contents lg:block">
           <Reveal>
             <span className="text-xs font-semibold uppercase tracking-[0.18em] opacity-50">
@@ -119,10 +119,12 @@ ${name}`;
                 </details>
               ))}
             </div>
-          </Reveal>
+                    </Reveal>
+        </div>
         </div>
 
-        <Reveal delay={140}>
+        <div className="order-2 lg:order-none">
+  <Reveal delay={140}>
           {sent ? (
             <div className="rounded-2xl border border-current/12 p-10 text-center">
               <h3 className="font-display text-2xl font-bold">Thank you!</h3>
