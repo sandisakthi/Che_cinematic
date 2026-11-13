@@ -43,9 +43,28 @@ export default function Hero() {
         {/* Editorial three-up. Replace Frame with next/image when you have photos. */}
         <Reveal delay={220}>
           <div className="grid grid-cols-3 gap-3">
-            <Frame seed="hero" index={0} ratio="portrait" className="mt-10" />
-            <Frame seed="hero" index={1} ratio="portrait" />
-            <Frame seed="hero" index={2} ratio="portrait" className="mt-6" />
+            <Frame
+  seed="hero"
+  index={0}
+  ratio="portrait"
+  className="mt-10"
+  src="/galleries/weddings/WhatsApp Image 2026-11-13 at 4.04.498 PM.jpeg"
+/>
+
+<Frame
+  seed="hero"
+  index={1}
+  ratio="portrait"
+  src="/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.47 AM (5).jpeg"
+/>
+
+<Frame
+  seed="hero"
+  index={2}
+  ratio="portrait"
+  className="mt-6"
+  src="/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM (2).jpeg"
+/>
           </div>
         </Reveal>
       </div>
