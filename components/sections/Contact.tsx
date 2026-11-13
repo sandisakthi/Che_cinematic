@@ -124,7 +124,7 @@ ${name}`;
         <Reveal delay={140}>
           {sent ? (
             <div className="rounded-2xl border border-current/12 p-10 text-center">
-              <h3 className="font-display text-2xl font-bold">Thank you for reaching out to Che Cinematic</h3>
+              <h3 className="font-display text-2xl font-bold">Thank you!</h3>
               <button
                 type="button"
                 onClick={() => setSent(false)}
@@ -180,7 +180,6 @@ ${name}`;
                   id="message"
                   name="message"
                   rows={4}
-                  required
                   placeholder="Where, roughly how many people, and what you are hoping for."
                   className="input resize-none"
                 />
