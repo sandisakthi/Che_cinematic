@@ -74,7 +74,7 @@ export const siteConfig = {
       images: [
   "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM (2).jpeg",
   "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM (1).jpeg",
-  "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.46 AM.jpeg",
+  "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM.jpeg",
   "/galleries/portraits/WhatsApp Image 2026-11-13 at 5.17.40 PM.jpeg",
 "/galleries/portraits/WhatsApp Image 2026-11-13 at 5.17.41 PM.jpeg",
 ],
