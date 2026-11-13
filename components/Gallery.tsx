@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from "react";
 import Frame from "@/components/Frame";
 import { siteConfig } from "@/config/site";
 
-type Shot = { gallery: string; galleryName: string; index: number; ratio: string };
+type Shot = { gallery: string; galleryName: string; index: number; ratio: string; src?: string };
 
 /**
  * Filterable masonry gallery with a keyboard-accessible lightbox.
@@ -21,6 +21,7 @@ export default function Gallery() {
       galleryName: g.name,
       index: i,
       ratio: g.ratios[i] ?? "portrait",
+            src: g.images[i],
     })),
   );
 
@@ -119,11 +120,7 @@ export default function Gallery() {
   seed={s.gallery}
   index={s.index}
   ratio={s.ratio}
-  src={
-    s.gallery === "weddings" && s.index === 0
-      ? "/galleries/weddings/wedding-01.jpg"
-      : undefined
-  }
+  src={s.src}
 />
               </div>
             </button>
@@ -174,11 +171,7 @@ export default function Gallery() {
   index={current.index}
   ratio={current.ratio}
   className="max-h-[78vh]"
-  src={
-    current.gallery === "weddings" && current.index === 0
-      ? "/galleries/weddings/wedding-01.jpg"
-      : undefined
-  }
+  src={current.src}
 />
             <figcaption className="mt-3 text-center text-xs uppercase tracking-[0.16em] text-white/50">
               {current.galleryName} · {open! + 1} / {visible.length}
