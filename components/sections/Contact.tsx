@@ -49,6 +49,7 @@ ${name}`;
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    setSent(true);
 }
 
   const today = new Date().toISOString().split("T")[0];
