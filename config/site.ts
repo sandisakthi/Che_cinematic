@@ -57,7 +57,13 @@ export const siteConfig = {
       name: "Weddings",
       blurb: "Full-day coverage, documentary-leaning, always unhurried.",
       shots: 9,
-      images: ["/galleries/weddings/wedding-01.jpg"],
+      images: [
+  "/galleries/weddings/wedding-01.jpg",
+  "/galleries/weddings/WhatsApp Image 2026-11-13 at 11.29.46 AM (1).jpeg",
+  "/galleries/weddings/WhatsApp Image 2026-11-13 at 4.04.47 PM.jpeg",
+  "/galleries/weddings/WhatsApp Image 2026-11-13 at 4.04.48 PM.jpeg",
+  "/galleries/weddings/WhatsApp Image 2026-11-13 at 4.04.498 PM.jpeg",
+],
       ratios: ["portrait", "landscape", "square", "landscape", "portrait", "portrait", "landscape", "square", "portrait"],
     },
     {
