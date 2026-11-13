@@ -14,11 +14,26 @@ export default function Contact() {
   const usesBackend = action !== "";
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    if (!usesBackend) {
-      e.preventDefault();
-      setSent(true);
-    }
-  }
+  e.preventDefault();
+
+  const formData = new FormData(e.currentTarget);
+
+  const message = `New Enquiry - CHE CINEMATIC
+
+Name: ${formData.get("name")}
+Email: ${formData.get("email")}
+Event Date: ${formData.get("date") || "Not specified"}
+Event Type: ${formData.get("type")}
+
+Message:
+${formData.get("message")}`;
+
+  const phone = "917010389234";
+  const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+  setSent(true);
+}
 
   const today = new Date().toISOString().split("T")[0];
 
