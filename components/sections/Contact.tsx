@@ -124,16 +124,7 @@ ${name}`;
         <Reveal delay={140}>
           {sent ? (
             <div className="rounded-2xl border border-current/12 p-10 text-center">
-              <h3 className="font-display text-2xl font-bold">Thank you</h3>
-              <p className="mt-3 text-sm opacity-70">
-                This is the built-in demo confirmation. Set{" "}
-                <code className="rounded bg-current/10 px-1.5 py-0.5 text-xs">
-                  action
-                </code>{" "}
-                in{" "}
-                <code className="text-xs">components/sections/Contact.tsx</code>{" "}
-                to receive real enquiries.
-              </p>
+              <h3 className="font-display text-2xl font-bold">Thank you for reaching out to Che Cinematic</h3>
               <button
                 type="button"
                 onClick={() => setSent(false)}
