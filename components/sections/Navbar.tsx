@@ -8,7 +8,7 @@ const LINKS = [
   { href: "/#work", label: "Work" },
   { href: "/#about", label: "About" },
   { href: "/#pricing", label: "Pricing" },
-   { href: "https://www.instagram.com/che_cinematic/", label: "Instagram" },
+  { href: "https://www.instagram.com/che_cinematic/", label: "Instagram" },
 ];
 
 export default function Navbar() {
