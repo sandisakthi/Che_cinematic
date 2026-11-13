@@ -196,7 +196,8 @@ ${name}`;
               </button>
             </form>
           )}
-        </Reveal>
+                </Reveal>
+      </div>
       </div>
     </section>
   );
