@@ -8,7 +8,7 @@ const LINKS = [
   { href: "/#work", label: "Work" },
   { href: "/#about", label: "About" },
   { href: "/#pricing", label: "Pricing" },
-  { href: "/#contact", label: "Contact Us" },
+   { href: "https://www.instagram.com/che_cinematic/", label: "Instagram" },
 ];
 
 export default function Navbar() {
@@ -52,6 +52,8 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
+              target={l.href.startsWith("http") ? "_blank" : undefined}
+              rel={l.href.startsWith("http") ? "noopener noreferrer" : undefined}
               className="text-sm font-medium opacity-70 transition-opacity hover:opacity-100"
             >
               {l.label}
@@ -87,6 +89,8 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
+              target={l.href.startsWith("http") ? "_blank" : undefined}
+              rel={l.href.startsWith("http") ? "noopener noreferrer" : undefined}
               onClick={() => setOpen(false)}
               className="block border-b border-current/10 py-3.5 text-base font-medium last:border-0"
             >
