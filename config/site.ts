@@ -72,7 +72,6 @@ export const siteConfig = {
       blurb: "Individuals, couples, and families — usually outdoors, usually golden hour.",
       shots: 6,
       images: [
-  "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM.jpeg",
   "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM (2).jpeg",
   "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM (1).jpeg",
   "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.46 AM.jpeg",
@@ -91,6 +90,7 @@ export const siteConfig = {
   "/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.48 AM (3).jpeg",
   "/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.47 AM (5).jpeg",
   "/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.46 AM (2).jpeg",
+  "/galleries/editorial/WhatsApp Image 2026-11-13 at 4.57.42 PM.jpeg",
 ],
       ratios: ["landscape", "portrait", "landscape", "square", "landscape", "portrait"],
     },
