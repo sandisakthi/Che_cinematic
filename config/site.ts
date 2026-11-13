@@ -57,6 +57,7 @@ export const siteConfig = {
       name: "Weddings",
       blurb: "Full-day coverage, documentary-leaning, always unhurried.",
       shots: 9,
+      images: ["/galleries/weddings/wedding-01.jpg"],
       ratios: ["portrait", "landscape", "square", "landscape", "portrait", "portrait", "landscape", "square", "portrait"],
     },
     {
@@ -64,6 +65,7 @@ export const siteConfig = {
       name: "Portraits",
       blurb: "Individuals, couples, and families — usually outdoors, usually golden hour.",
       shots: 6,
+      images: [],
       ratios: ["portrait", "square", "portrait", "landscape", "portrait", "square"],
     },
     {
@@ -71,6 +73,7 @@ export const siteConfig = {
       name: "Editorial",
       blurb: "Brand and magazine commissions. Studio or location.",
       shots: 6,
+      images: [],
       ratios: ["landscape", "portrait", "landscape", "square", "landscape", "portrait"],
     },
   ],
