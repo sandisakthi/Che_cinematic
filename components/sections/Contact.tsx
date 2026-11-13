@@ -17,6 +17,15 @@ export default function Contact() {
   e.preventDefault();
 
   const formData = new FormData(e.currentTarget);
+    const dateValue = formData.get("date") as string;
+const formattedDate = dateValue
+  ? new Date(dateValue + "T00:00:00").toLocaleDateString("en-IN", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    })
+  : "Not specified";
+    
 
   const message = `Hello CHE CINEMATIC! 👋
 
