@@ -12,7 +12,12 @@ export default function About() {
     >
       <div className="mx-auto grid max-w-6xl items-center gap-14 px-5 lg:grid-cols-[0.8fr_1fr]">
         <Reveal>
-          <Frame seed="about" index={0} ratio="portrait" />
+        <Frame
+  seed="about"
+  index={0}
+  ratio="portrait"
+  src="/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.46 AM.jpeg"
+/>  
         </Reveal>
 
         <Reveal delay={120}>
