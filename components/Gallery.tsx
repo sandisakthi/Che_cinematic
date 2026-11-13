@@ -16,7 +16,7 @@ export default function Gallery() {
   const [open, setOpen] = useState<number | null>(null);
 
   const shots: Shot[] = galleries.flatMap((g) =>
-    Array.from({ length: g.shots }, (_, i) => ({
+    Array.from({ length: g.images.length }, (_, i) => ({
       gallery: g.slug,
       galleryName: g.name,
       index: i,
