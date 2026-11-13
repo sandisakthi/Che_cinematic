@@ -18,15 +18,22 @@ export default function Contact() {
 
   const formData = new FormData(e.currentTarget);
 
-  const message = `New Enquiry - CHE CINEMATIC
+  const message = `Hello CHE CINEMATIC! 👋
 
-Name: ${formData.get("name")}
-Email: ${formData.get("email")}
-Event Date: ${formData.get("date") || "Not specified"}
-Event Type: ${formData.get("type")}
+I'd like to enquire about your photography services.
 
-Message:
-${formData.get("message")}`;
+👤 Name: ${name}
+📧 Email: ${formData.get("email")}
+📅 Event Date: ${formattedDate}
+📸 Event Type: ${formData.get("type")}
+
+A little about my event:
+${formData.get("message")}
+
+Looking forward to hearing from you!
+
+Thank you,
+${name}`;
 
   const phone = "917010389234";
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
