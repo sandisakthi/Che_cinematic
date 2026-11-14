@@ -178,7 +178,6 @@ ${name}`;
   id="type"
   name="type"
   className="input"
-  style={{ colorScheme: "dark" }}
 >
   <option value="Wedding">Wedding</option>
   <option value="Pre-Wedding">Pre-Wedding</option>
