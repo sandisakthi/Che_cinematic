@@ -127,10 +127,11 @@ ${name}`;
                             ))}
             </div>
           </div>
-        </Reveal>
+                  </Reveal>
       </div>
+    </div>
 
-        <div className="order-2 lg:order-none">
+    <div className="order-2 lg:order-none">
   <Reveal delay={140}>
           {sent ? (
             <div className="rounded-2xl border border-current/12 p-10 text-center">
