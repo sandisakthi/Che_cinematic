@@ -15,7 +15,7 @@
 export const siteConfig = {
   name: "Che Cinematic",
   photographer: "Rohit Thiyagaraj",
-  tagline: "STORIES THROUGH FRAMES",
+  tagline: "CAPTURING LIFE THROUGH FRAMES",
   title: "Che Cinematic Photography & Videography",
   description:
     "Capturing weddings, events and portraits through creative photography and cinematic storytelling. Booking 2026 dates now.",
