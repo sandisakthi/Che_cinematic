@@ -35,9 +35,8 @@ export const metadata: Metadata = {
 const themeInitScript = `
 try {
   var t = localStorage.getItem("theme");
-  if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-    document.documentElement.classList.add("dark");
-  }
+  var shouldBeDark = t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  document.documentElement.classList.toggle("dark", shouldBeDark);
 } catch (e) {}
 `;
 
