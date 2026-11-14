@@ -212,7 +212,7 @@ export function photographerSchema() {
     makesOffer: siteConfig.packages.map((p) => ({
       "@type": "Offer",
       name: p.name,
-      description: `${p.name} — ${p.duration}`,
+      description: p.name,
     })),
   };
 }
