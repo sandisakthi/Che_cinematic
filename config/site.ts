@@ -161,23 +161,27 @@ export const siteConfig = {
   ],
 
   faqs: [
-    {
-      q: "Do you travel?",
-      a: "Yes, constantly. Travel within TamilNadu is included. Anywhere else, I add travel and a night's accommodation at cost — no markup, no day rate for travel.",
-    },
-    {
-      q: "How long until we see the photographs?",
-      a: "Ten days for the full gallery. I send a preview of around thirty images within 48 hours, because waiting is unbearable and you will want something to show people.",
-    },
-    {
-      q: "Do we get the raw files?",
-      a: "No, and no photographer worth booking will say yes. Editing is half the work and half the reason the photographs look like mine. You get every keeper, fully edited, at full resolution, with a print release.",
-    },
-    {
-      q: "What happens if you are ill?",
-      a: "I carry professional insurance and I am part of a network of photographers who cover each other. In eleven years I have never missed a wedding, but there is a real plan if I ever do.",
-    },
-  ],
+  {
+    q: "Can I customise a photoshoot based on my ideas?",
+    a: "Absolutely! I'd love to hear your ideas and understand what you have in mind. We can discuss your preferences and shape the shoot around your vision.",
+  },
+  {
+    q: "Can I choose the location for my photoshoot?",
+    a: "Of course! If you have a location in mind, let me know. We can discuss the possibilities and find a setting that works well for your shoot.",
+  },
+  {
+    q: "Do you travel to different locations?",
+    a: "Yes! I'm open to travelling for shoots. Just share your preferred location, and we can discuss the arrangements.",
+  },
+  {
+    q: "Do you cover small, intimate celebrations?",
+    a: "Absolutely! Not every occasion needs to be grand. I'd be happy to capture smaller gatherings and personal celebrations too.",
+  },
+  {
+    q: "Can I share reference photos or inspiration for my shoot?",
+    a: "Definitely! Feel free to share reference photos, mood boards or any ideas you've collected. It'll help me understand the style and look you're going for.",
+  },
+],
 
   /** Client proofing page copy (app/proofing/page.tsx). */
   proofing: {
