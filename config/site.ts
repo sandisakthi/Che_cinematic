@@ -37,7 +37,7 @@ export const siteConfig = {
   hero: {
     eyebrow: "Freelance · Photography",
     headline: "You live the moment. We capture the story.",
-    sub: "Whether it's a wedding celebration, a pre-wedding shoot or a personal portrait,come with your smiles, bring your energy and enjoy every bit of the experience.I'll be there to capture it all together, frame by frame.",
+    sub: "Whether it's a wedding celebration, a pre-wedding shoot or a personal portrait, bring your excitement, enjoy the experience and make the most of every moment. I'll be there to bring your memories to life, frame by frame.",
     primaryCta: "Check your date",
     secondaryCta: "See the work",
   },
