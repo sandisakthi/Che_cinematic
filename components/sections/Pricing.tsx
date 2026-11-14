@@ -14,9 +14,9 @@ export default function Pricing() {
               Straightforward pricing
             </h2>
             <p className="mt-4 leading-relaxed opacity-70">
-              No packages that quietly exclude the thing you actually wanted.
-              Everything below includes full editing and a print release.
-            </p>
+  Every shoot is approached with care, creativity and attention to detail.
+  Get in touch to discuss what you have in mind.
+</p>
           </div>
         </Reveal>
 
@@ -37,7 +37,7 @@ export default function Pricing() {
                 )}
                 <h3 className="font-display text-xl font-bold">{p.name}</h3>
                 <p className="mt-4 font-display text-4xl font-bold">{p.price}</p>
-                <p className="mt-1 text-sm opacity-60">{p.duration}</p>
+        
 
                 <ul className="mt-7 flex-1 space-y-3">
                   {p.features.map((f) => (
