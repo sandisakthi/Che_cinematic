@@ -103,9 +103,9 @@ export const siteConfig = {
       "I like to keep things natural, easy and enjoyable. Whether it's your wedding or a portrait session, I want you to feel comfortable and enjoy the experience. No unnecessary pressure, just genuine smiles, good moments and memories made along the way. I'll be there to capture it all.",
     ],
     stats: [
-      { value: "Hassle Free", label: "Weddings & Events" },
-      { value: "Quality", label: "delivery" },
-      { value: "2024", label: "Shooting since" },
+      { value: "WEDDINGS", label: "& PRE-WEDDINGS" },
+      { value: "PORTRAITS", label: "& EVENTS" },
+      { value: "FAMILY", label: "& COUPLES" },
     ],
   },
 
@@ -115,7 +115,7 @@ export const siteConfig = {
   packages: [
     {
       name: "Portrait session",
-      price: "1500",
+      price: "₹1500",
       duration: "2 Hours",
       features: [
         "One location, Chennai or nearby",
@@ -127,7 +127,7 @@ export const siteConfig = {
     },
     {
       name: "Wedding",
-      price: "5000",
+      price: "₹4000",
       duration: "10 hours",
       features: [
         "Preparations through first dance",
