@@ -170,9 +170,12 @@ ${name}`;
                   </label>
                   <select id="type" name="type" className="input">
                     <option>Wedding</option>
+                    <option>Pre-Wedding</option>
+                    <option>Engagement</option>
                     <option>Portrait</option>
-                    <option>Editorial / brand</option>
-                    <option>Something else</option>
+                    <option>Birthday-Event</option>
+                    <option>Editorial/Brand</option>
+                    <option>Other Events</option>
                   </select>
                 </div>
               </div>
