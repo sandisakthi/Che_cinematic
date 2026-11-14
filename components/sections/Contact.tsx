@@ -77,14 +77,14 @@ ${name}`;
     href={`mailto:${siteConfig.contact.email}`}
     className="block hover:underline"
   >
-    <span className="font-semibold">Email — </span>
+    <span className="font-semibold">E-mail: </span>
     {siteConfig.contact.email}
   </a>
   <a
     href={`tel:${siteConfig.contact.phoneHref}`}
     className="block hover:underline"
   >
-    <span className="font-semibold">Phone — </span>
+    <span className="font-semibold">Phone: </span>
     {siteConfig.contact.phone}
   </a>
 </div>
