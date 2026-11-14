@@ -96,12 +96,18 @@ export const siteConfig = {
     },
     ],
 
-  films: [] as {
-    title: string;
-    type: "youtube" | "direct";
-    url: string;
-    thumbnail?: string;
-  }[],
+  films: [
+  {
+    title: "Movie Trailer",
+    type: "youtube",
+    url: "https://youtu.be/aGSOpb_6kv8",
+  },
+] as {
+  title: string;
+  type: "youtube" | "direct";
+  url: string;
+  thumbnail?: string;
+}[],
 
   about: {
     heading: "Somewhere between the lens and life, I found a world of my own.",
