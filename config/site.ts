@@ -99,8 +99,8 @@ export const siteConfig = {
   about: {
     heading: "Somewhere between the lens and life, I found a world of my own.",
     body: [
-      "I've always found myself fascinated by the world of cinema — its visuals, its moods and its ability to make ordinary moments feel extraordinary. Over time, that fascination became part of my creative approach, bringing a cinematic perspective to the way I see and capture the world around me.",
-      "For me, photography is about more than just getting a beautiful picture. It's about noticing the little things, understanding the emotions behind a moment and finding meaning in the details. Whether it's the excitement of a wedding, the connection between two people or a fleeting moment in a portrait, I want every frame to have a story of its own.",
+      "My love for cinema shapes the way I see photography. Its visuals, emotions and storytelling continue to influence my creative approach",
+      "I like to keep things natural, easy and enjoyable. Whether it's your wedding or a portrait session, I want you to feel comfortable and enjoy the experience. No unnecessary pressure, just genuine smiles, good moments and memories made along the way. I'll be there to capture it all.",
     ],
     stats: [
       { value: "Hassle Free", label: "Weddings & Events" },
