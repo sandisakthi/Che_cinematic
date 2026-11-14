@@ -33,7 +33,9 @@ export default function About() {
                 {p}
               </p>
             ))}
-
+            <h3 className="mb-0 text-xs font-semibold uppercase tracking-[0.18em] opacity-50">
+  Services
+</h3>
             <dl className="mt-9 grid grid-cols-1 gap-6 border-t border-current/10 pt-8 sm:grid-cols-3">
               {about.stats.map((s) => (
                 <div key={s.label}>
