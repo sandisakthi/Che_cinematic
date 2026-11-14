@@ -15,7 +15,7 @@
 export const siteConfig = {
   name: "Che Cinematic",
   photographer: "Rohit Thiyagaraj",
-  tagline: "CAPTURING LIFE, CREATING STORIES",
+  tagline: "CAPTURING LIFE, CREATING STORIES.",
   title: "Che Cinematic Photography & Videography",
   description:
     "Capturing weddings, events and portraits through creative photography and cinematic storytelling. Booking 2026 dates now.",
@@ -97,10 +97,10 @@ export const siteConfig = {
   ],
 
   about: {
-    heading: "I have photographed so many weddings and events cried at most of them",
+    heading: "Somewhere between the lens and life, I found a world of my own.",
     body: [
-      "I picked up a camera in 2020 to document a friend's wedding nobody could afford to have photographed. I have not really put it down since.",
-      "My approach is simple: arrive early, stay quiet, know where the light is going to be an hour from now. I will direct you when it helps and disappear when it does not. The photographs you will remember are almost never the ones you posed for.",
+      "I've always found myself fascinated by the world of cinema — its visuals, its moods and its ability to make ordinary moments feel extraordinary. Over time, that fascination became part of my creative approach, bringing a cinematic perspective to the way I see and capture the world around me.",
+      "For me, photography is about more than just getting a beautiful picture. It's about noticing the little things, understanding the emotions behind a moment and finding meaning in the details. Whether it's the excitement of a wedding, the connection between two people or a fleeting moment in a portrait, I want every frame to have a story of its own.",
     ],
     stats: [
       { value: "Hassle Free", label: "Weddings & Events" },
