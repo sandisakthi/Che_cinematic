@@ -37,7 +37,7 @@ export const siteConfig = {
   hero: {
     eyebrow: "Freelance · Photography",
     headline: "You live the moment. We capture the story.",
-    sub: "No need to practise your smiles or worry about perfect poses. Just be yourself, enjoy your special day, and I'll take care of capturing your emotions, little details and moments along the way through a cinematic touch.",
+    sub: "Whether it's a wedding celebration, a pre-wedding shoot or a personal portrait,come with your smiles, bring your energy and enjoy every bit of the experience.I'll be there to capture it all together, frame by frame.",
     primaryCta: "Check your date",
     secondaryCta: "See the work",
   },
@@ -99,7 +99,7 @@ export const siteConfig = {
   about: {
     heading: "Somewhere between the lens and life, I found a world of my own.",
     body: [
-      "My love for cinema shapes the way I see photography. Its visuals, emotions and storytelling continue to influence my creative approach",
+      "My love for cinema shapes the way I see photography. Its visuals, emotions and storytelling continue to influence my creative approach and the way I tell stories through my camera.",
       "I like to keep things natural, easy and enjoyable. Whether it's your wedding or a portrait session, I want you to feel comfortable and enjoy the experience. No unnecessary pressure, just genuine smiles, good moments and memories made along the way. I'll be there to capture it all.",
     ],
     stats: [
