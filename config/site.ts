@@ -94,7 +94,14 @@ export const siteConfig = {
 ],
       ratios: ["landscape", "portrait", "landscape", "square", "landscape", "portrait"],
     },
-  ],
+    ],
+
+  films: [] as {
+    title: string;
+    type: "youtube" | "direct";
+    url: string;
+    thumbnail?: string;
+  }[],
 
   about: {
     heading: "Somewhere between the lens and life, I found a world of my own.",
