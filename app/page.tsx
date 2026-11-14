@@ -18,22 +18,19 @@ export default function Home() {
   <div className="mx-auto max-w-4xl">
     <p className="font-serif text-2xl italic leading-relaxed text-white/90 md:text-4xl">
       &ldquo;Years from now, when everything has changed —
-      these photographs will take you back.&rdquo;
-    </p>
-
-    <p className="mt-10 font-serif text-lg italic leading-relaxed text-white/80 md:text-2xl">
+      these photographs will take you back.
+      <br /><br />
       To the laughter. To the people.
       <br />
       To the moments you didn&apos;t even realise
-      <br />
-      were important.
+      were important.&rdquo;
     </p>
 
-    <p className="mt-12 text-xs font-medium tracking-[0.3em] text-white/50 md:text-sm">
-      CHE CINEMATIC <span className="mx-2">•</span> BY ROHIT THIYAGARAJ
+    <p className="mt-12 whitespace-nowrap text-[10px] font-medium tracking-[0.15em] text-white/50 md:text-sm md:tracking-[0.3em]">
+      CHE CINEMATIC <span className="mx-2">•</span> BY ROHIT
     </p>
   </div>
-</section>
+</section>      </
 
         <About />
         <Pricing />
