@@ -124,11 +124,11 @@ ${name}`;
                     {f.a}
                   </p>
                 </details>
-              ))}
+                            ))}
             </div>
-                    </Reveal>
-        </div>
-        </div>
+          </div>
+        </Reveal>
+      </div>
 
         <div className="order-2 lg:order-none">
   <Reveal delay={140}>
