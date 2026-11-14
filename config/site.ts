@@ -154,10 +154,10 @@ export const siteConfig = {
 
   /** The booking process, set out plainly. */
   process: [
-    ["Check the date", "Send me your date and I will tell you within a day whether I am free."],
-    ["Meet", "A coffee or a video call. No pitch — mostly I want to know how you want the day to feel."],
-    ["The day", "I arrive early, find the light, and stay out of the way."],
-    ["Your gallery", "Delivered in ten days, in a private online gallery you can share and download."],
+    ["Check the date", "Let me know your event date and what you're planning. I'll respond to you within a day to discuss things further."],
+    ["Let's connect", "A coffee or a video call. No pitch — I'd love to hear your ideas and understand what you have in mind."],
+    ["The day", "Once I arrive, I'll get familiar with the location, find the right spots and prepare for the moments ahead."],
+    ["Your gallery", "I'll carefully edit your photographs and share the final collection with you to view, share and download."],
   ],
 
   faqs: [
