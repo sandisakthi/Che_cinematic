@@ -113,44 +113,37 @@ export const siteConfig = {
    * Packages. Prices are strings so you can write "from €2,400" or "on request".
    */
   packages: [
-    {
-      name: "Portrait session",
-      price: "₹1500",
-      duration: "2 Hours",
-      features: [
-        "One location, Chennai or nearby",
-        "40+ edited photographs",
-        "Online gallery, 12-month hosting",
-        "Print release included",
-      ],
-      featured: false,
-    },
-    {
-      name: "Wedding",
-      price: "₹4000",
-      duration: "10 hours",
-      features: [
-        "Preparations through first dance",
-        "600+ edited photographs",
-        "Online gallery with client proofing",
-        "Engagement session included",
-        "Print release included",
-      ],
-      featured: true,
-    },
-    {
-      name: "Editorial / brand",
-      price: "On request",
-      duration: "Half or full day",
-      features: [
-        "Studio or location",
-        "Licensed for commercial use",
-        "Art direction on request",
-        "48-hour turnaround available",
-      ],
-      featured: false,
-    },
-  ],
+  {
+    name: "Portraits",
+    price: "₹1,500",
+    features: [
+      "Individual portrait sessions",
+      "Creative indoor or outdoor portraits",
+      "One location, Chennai or nearby",
+    ],
+    featured: false,
+  },
+  {
+    name: "Weddings",
+    price: "₹4,000",
+    features: [
+      "Wedding photography & videography",
+      "Candid moments and celebrations",
+      "Capturing the story of your special day",
+    ],
+    featured: true,
+  },
+  {
+    name: "Pre-Weddings",
+    price: "₹2,000",
+    features: [
+      "Couple photoshoots",
+      "Creative concepts and locations",
+      "Pre-wedding photography & cinematic films",
+    ],
+    featured: false,
+  },
+],
 
   /** The booking process, set out plainly. */
   process: [
