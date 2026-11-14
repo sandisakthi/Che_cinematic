@@ -41,7 +41,7 @@ export default function About() {
   <dl className="grid grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-5">
   {about.stats.map((s) => (
     <div key={s.label} className="min-w-0">
-      <dt className="font-display text-2xl font-bold lg:text-3xl">
+      <dt className="font-display text-xl font-bold lg:text-2xl">
         {s.value}
       </dt>
       <dd className="mt-2 text-xs uppercase tracking-wider opacity-55 leading-relaxed">
