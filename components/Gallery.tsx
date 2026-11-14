@@ -64,10 +64,14 @@ export default function Gallery() {
     ),
   ];
 
-  const visible =
-    active === "all"
-      ? shots
-      : shots.filter((s) => s.gallery === active);
+  const [mixedShots] = useState<Shot[]>(() =>
+  [...shots].sort(() => Math.random() - 0.5)
+);
+
+const visible =
+  active === "all"
+    ? mixedShots
+    : shots.filter((s) => s.gallery === active);
 
   const close = useCallback(() => setOpen(null), []);
 
