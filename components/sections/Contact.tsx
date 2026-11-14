@@ -178,16 +178,16 @@ ${name}`;
   id="type"
   name="type"
   className="input"
-  style={{ colorScheme: "dark" }}
+  style={{ colorScheme: "light" }}
 >
-                    <option>Wedding</option>
-                    <option>Pre-Wedding</option>
-                    <option>Engagement</option>
-                    <option>Portrait</option>
-                    <option>Birthday-Event</option>
-                    <option>Editorial/Brand</option>
-                    <option>Other Events</option>
-                  </select>
+  <option value="Wedding">Wedding</option>
+  <option value="Pre-Wedding">Pre-Wedding</option>
+  <option value="Engagement">Engagement</option>
+  <option value="Portrait">Portrait</option>
+  <option value="Birthday-Event">Birthday-Event</option>
+  <option value="Editorial/Brand">Editorial/Brand</option>
+  <option value="Other Events">Other Events</option>
+</select>
                 </div>
               </div>
 
