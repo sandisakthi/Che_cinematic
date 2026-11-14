@@ -17,24 +17,21 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-wrap gap-5 text-sm">
-          <a href="/#work" className="opacity-70 hover:opacity-100">
-            Work
-          </a>
-          <a href="/#pricing" className="opacity-70 hover:opacity-100">
-            Pricing
-          </a>
-          <a href="/proofing/" className="opacity-70 hover:opacity-100">
-            Client galleries
-          </a>
-          <a
-            href={siteConfig.social.instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="opacity-70 hover:opacity-100"
-          >
-            Instagram
-          </a>
-        </div>
+  <a href="/#work" className="opacity-70 hover:opacity-100">
+    Work
+  </a>
+  <a href="/#about" className="opacity-70 hover:opacity-100">
+    About
+  </a>
+  <a
+    href={siteConfig.social.instagram}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="opacity-70 hover:opacity-100"
+  >
+    Instagram
+  </a>
+</div>
       </div>
 
       <div className="mx-auto mt-6 flex max-w-6xl flex-col justify-between gap-2 text-xs opacity-50 sm:flex-row">
