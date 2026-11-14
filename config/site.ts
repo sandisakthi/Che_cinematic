@@ -116,10 +116,10 @@ export const siteConfig = {
       "I like to keep things natural, easy and enjoyable. Whether it's your wedding or a portrait session, I want you to feel comfortable and enjoy the experience. No unnecessary pressure, just genuine smiles, good moments and memories made along the way. I'll be there to capture it all.",
     ],
     stats: [
-      { value: "PHOTOGRAPHY", label: "& VIDEOGRAPHY" },
-      { value: "WEDDINGS", label: "& PRE-WEDDINGS" },
-      { value: "PORTRAITS", label: "& OTHER EVENTS" },
-    ],
+  { value: "WEDDINGS", label: "& PRE-WEDDINGS" },
+  { value: "PORTRAITS", label: "& OTHER EVENTS" },
+  { value: "PHOTOGRAPHY", label: "& VIDEOGRAPHY" },
+],
   },
 
   /**
