@@ -104,3 +104,13 @@ html {
     scroll-behavior: auto;
   }
 }
+/* Theme-aware enquiry dropdown */
+select option {
+  background-color: #faf9f7;
+  color: #191614;
+}
+
+.dark select option {
+  background-color: #191614;
+  color: #f2f0ec;
+}
