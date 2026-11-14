@@ -93,8 +93,13 @@ ${name}`;
           <div className="order-3 lg:order-none">
             {/* FAQ — also emitted as FAQPage structured data in layout.tsx */}
           <Reveal delay={100}>
-            <div className="mt-12 space-y-3">
-              {siteConfig.faqs.map((f) => (
+            <div className="mt-12">
+  <h3 className="mb-6 text-xs font-semibold uppercase tracking-[0.18em] opacity-50">
+    FAQ
+  </h3>
+
+  <div className="space-y-3">
+    {siteConfig.faqs.map((f) => (
                 <details
                   key={f.q}
                   className="group border-b border-current/12 pb-3"
