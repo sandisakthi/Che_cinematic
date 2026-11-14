@@ -38,16 +38,18 @@ export default function About() {
   <h3 className="mb-6 text-xs font-semibold uppercase tracking-[0.18em] opacity-50">
     Services
   </h3>
-  <dl className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-              {about.stats.map((s) => (
-                <div key={s.label}>
-                  <dt className="font-display text-3xl font-bold">{s.value}</dt>
-                  <dd className="mt-1 text-xs uppercase tracking-wider opacity-55">
-                    {s.label}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+  <dl className="grid grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-5">
+  {about.stats.map((s) => (
+    <div key={s.label} className="min-w-0">
+      <dt className="font-display text-2xl font-bold lg:text-3xl">
+        {s.value}
+      </dt>
+      <dd className="mt-2 text-xs uppercase tracking-wider opacity-55 leading-relaxed">
+        {s.label}
+      </dd>
+    </div>
+  ))}
+</dl>
           </div>
           </div>
         </Reveal>
