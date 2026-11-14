@@ -148,13 +148,13 @@ ${name}`;
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
                   <label htmlFor="name" className="mb-2 block text-sm font-medium">
-                    Your names
+                    Your Name
                   </label>
                   <input id="name" name="name" type="text" required autoComplete="name" className="input" />
                 </div>
                 <div>
                   <label htmlFor="email" className="mb-2 block text-sm font-medium">
-                    Email
+                    Email ID
                   </label>
                   <input id="email" name="email" type="email" required autoComplete="email" className="input" />
                 </div>
