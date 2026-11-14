@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { siteConfig, photographerSchema, faqSchema } from "@/config/site";
 import "./globals.css";
 
@@ -36,8 +35,9 @@ export const metadata: Metadata = {
 const themeInitScript = `
 try {
   var t = localStorage.getItem("theme");
-  var shouldBeDark = t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches);
-  document.documentElement.classList.toggle("dark", shouldBeDark);
+  if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("dark");
+  }
 } catch (e) {}
 `;
 
@@ -49,9 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <Script id="theme-init" strategy="beforeInteractive">
-          {themeInitScript}
-        </Script>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
