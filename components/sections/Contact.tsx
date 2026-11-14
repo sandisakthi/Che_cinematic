@@ -72,20 +72,22 @@ ${name}`;
               Tell me when and where. I reply to everything within a day, and I
               will be honest with you if I am not the right fit.
             </p>
-            <div className="mt-6 space-y-1.5 text-sm">
-              <a
-                href={`mailto:${siteConfig.contact.email}`}
-                className="block font-semibold hover:underline"
-              >
-                {siteConfig.contact.email}
-              </a>
-              <a
-                href={`tel:${siteConfig.contact.phoneHref}`}
-                className="block opacity-70 hover:underline"
-              >
-                {siteConfig.contact.phone}
-              </a>
-            </div>
+            <div className="mt-6 space-y-2 text-sm">
+  <a
+    href={`mailto:${siteConfig.contact.email}`}
+    className="block hover:underline"
+  >
+    <span className="font-semibold">Email — </span>
+    {siteConfig.contact.email}
+  </a>
+  <a
+    href={`tel:${siteConfig.contact.phoneHref}`}
+    className="block hover:underline"
+  >
+    <span className="font-semibold">Phone — </span>
+    {siteConfig.contact.phone}
+  </a>
+</div>
           </Reveal>
 
           <div className="order-3 lg:order-none">
