@@ -49,6 +49,7 @@ export default function About() {
               ))}
             </dl>
           </div>
+          </div>
         </Reveal>
       </div>
     </section>
