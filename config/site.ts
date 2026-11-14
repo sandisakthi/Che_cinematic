@@ -55,7 +55,7 @@ export const siteConfig = {
     {
       slug: "weddings",
       name: "Weddings",
-      blurb: "Full-day coverage, documentary-leaning, always unhurried.",
+      blurb: "Capturing the emotions, traditions and moments that make your wedding unforgettable.",
       shots: 9,
       images: [
   "/galleries/weddings/wedding-01.jpg",
@@ -69,7 +69,7 @@ export const siteConfig = {
     {
       slug: "portraits",
       name: "Portraits",
-      blurb: "Individuals, couples, and families — usually outdoors, usually golden hour.",
+      blurb: "Every face has a character. Every portrait has a story.",
       shots: 6,
       images: [
   "/galleries/portraits/WhatsApp Image 2026-11-13 at 11.29.47 AM (2).jpeg",
@@ -83,7 +83,7 @@ export const siteConfig = {
     {
       slug: "editorial",
       name: "Editorial",
-      blurb: "Brand and magazine commissions. Studio or location.",
+      blurb: "Finding beauty in the details.",
       shots: 6,
       images: [
   "/galleries/editorial/WhatsApp Image 2026-11-13 at 11.29.48 AM (4).jpeg",
