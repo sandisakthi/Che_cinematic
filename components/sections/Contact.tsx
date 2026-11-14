@@ -168,7 +168,12 @@ ${name}`;
                   <label htmlFor="type" className="mb-2 block text-sm font-medium">
                     Type
                   </label>
-                  <select id="type" name="type" className="input">
+                  <select
+  id="type"
+  name="type"
+  className="input"
+  style={{ colorScheme: "dark" }}
+>
                     <option>Wedding</option>
                     <option>Pre-Wedding</option>
                     <option>Engagement</option>
