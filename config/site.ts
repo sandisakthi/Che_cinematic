@@ -36,8 +36,8 @@ export const siteConfig = {
 
   hero: {
     eyebrow: "Freelance · Photography",
-    headline: "Light, laughter, and the moments between the poses.",
-    sub: "No need to practise your smiles or worry about perfect poses. Just be yourself, enjoy your special day, and I'll take care of capturing the emotions, little details and moments along the way.",
+    headline: "You live the moment. We capture the story",
+    sub: "No need to practise your smiles or worry about perfect poses. Just be yourself, enjoy your special day, and I'll take care of capturing your emotions, little details and moments along the way through a cinematic touch",
     primaryCta: "Check your date",
     secondaryCta: "See the work",
   },
