@@ -30,8 +30,7 @@ export default function Home() {
       CHE CINEMATIC <span className="mx-2">•</span> BY ROHIT
     </p>
   </div>
-</section>      </
-
+</section>  
         <About />
         <Pricing />
         <Contact />
